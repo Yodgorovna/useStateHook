@@ -10,6 +10,7 @@ export const ProductCard = ({
 }) => {
   return (
     <div className="product-card">
+      <img src={cardImg} alt={`${title} image`} />
       <div className="product-content">
         <div className="title">{title}</div>
         <div className="janr">{janr}</div>

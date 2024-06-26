@@ -16,9 +16,9 @@ function App() {
       <h1 className="section-title ">Рукнлар</h1>
 
       <div className="flex gap-6">
-        {ruknlar.map((item, index) => {
-          <RuknlarCard key={index} cardImg={item.cardImg} h1={item.h1} />;
-        })}
+        {ruknlar.map((item, index) => (
+          <RuknlarCard key={index} cardImg={item.cardImg} h1={item.h1} />
+        ))}
       </div>
       <h1 className="section-title ">Янги қўшилганлар</h1>
       <div className="flex gap-6">

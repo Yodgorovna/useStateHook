@@ -40,7 +40,7 @@ export const ruknlar = [
     h1: "Болалар адабиёти",
   },
   {
-    cardImg: "/images/detektivlar.png",
+    cardImg: "/images/detektiv.png",
     h1: "Детективлар",
   },
   {

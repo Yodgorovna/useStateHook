@@ -1,4 +1,5 @@
 import React from "react";
+import "./product.scss";
 
 export const ProductCard = ({
   cardImg,
@@ -14,9 +15,9 @@ export const ProductCard = ({
       <div className="product-content">
         <div className="title">{title}</div>
         <div className="janr">{janr}</div>
-        <div className="svgs">
+        <div className="svgs flex justify-between">
           <img src={starImg} alt="star" className="star" />
-          <div className="svgss">
+          <div className="svgss flex">
             <img src={headphone} alt="headphone" className="headphone" />
             <img src={book} alt="book" className="book" />
           </div>

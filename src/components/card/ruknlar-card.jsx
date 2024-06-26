@@ -1,10 +1,13 @@
 import React from "react";
+import "./ruknlar.scss";
 
-export const RuknlarCard = ({ cardImg, headline }) => {
+export const RuknlarCard = ({ cardImg, h1 }) => {
   return (
     <div className="product-card">
-      <img src={cardImg} alt={`${headline} image`} />
-      <h1>{headline}</h1>
+      <div className="image-container">
+        <img src={cardImg} alt={`${h1} image`} />
+        <h1>{h1}</h1>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,32 @@
+.product-card {
+  position: relative;
+  display: inline-block; /* Ensure the container shrinks to fit the content */
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block; /* Remove extra space below image */
+  width: 100%;
+  height: auto;
+}
+
+.image-container h1 {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  margin: 0; /* Remove default margin */
+  color: white; /* Change the color as needed */
+  padding: 5px; /* Optional: Add padding for better appearance */
+}
+
+h1 {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
